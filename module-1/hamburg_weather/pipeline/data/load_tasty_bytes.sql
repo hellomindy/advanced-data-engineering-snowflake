@@ -1,6 +1,9 @@
 USE ROLE accountadmin;
 
-
+/* running sql in snow command : snow git execute @advanced_data_engineering_snowflake/branches/main/module-1/hamburg_weather/pipeline/data/load_tasty_bytes.sql -D "env='STAGING'" 
+--database=COURSE_REPO --schema=PUBLIC
+if the target is file directory, it will recursively execute all the sql data e.g) under objects/
+ */
 /*--
 database, schema and warehouse creation
 --*/
